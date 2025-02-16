@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node main.js",
+    "start": "node --no-warnings src/main.js",
     "dev": "nodemon main.js",
     "test": "jest"
   },
